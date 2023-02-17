@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700&family=Inter:wght@400;700&family=Noto+Kufi+Arabic:wght@300;400;500;600;700;800&display=swap');
+:root {
+    --color-border: #ccc;
+  --color-h1: #414143;
+  --color-h2: #6679bb;
+  --color-body: #8a99ce;
+  --color-accent: #ffa5a5;
+  --color-primary: #f98679;
+--color-icon: red;
+  --color-secondary: #ccd0e9;
+  --color-headings: #f17b6d;
+  --border-radius: 30px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* Typography */
+::selection {
+    background: #dedad8d3;
+    color: #fff;
+  }
+  
+html {
+    font-size: 62.5%;
+}
+  
+img {
+    width: 100%;
+}
+  
+
+body {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: var(--color-body);
+
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.all {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: var(--color-body);
+}
+
+
+h1, h2, h3 {
+    margin-bottom: 1rem;
+    line-height: 1.1;
+  }
+
+h1 {
+  color: var(--color-h1);
+  font-size: 7rem;
+}
+
+h2 {
+  color: var(--color-h2);
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+p {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 2.5rem;
+    }
+    
+    .all {
+        font-size: 2.2rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 2.9rem;
+    }
+}
+
+
+
+/* Links
+
+a {
+    text-decoration: none;
+}
+
+.link-arrow {
+    color: var(--color-accent);
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.link-arrow::after {
+    content: "➡";
+    margin-left: 5px;
+}
+
+
+.link-arrow:hover::after {
+    margin-left: 10px;
+    transition: margin 0.15s;
+}
+
+@media screen and (min-width: 1024px) {
+    .link-arrow {
+        font-size: 1.5rem;
+    }
+} */
+
+
+/* Lists */
+/* .list {
+    list-style: none;
+    padding-left: 0;
+    color: var(--color-h2);
+}
+
+.list--inline .list__item {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.list--tick {
+    list-style-image: url(/images/tick.svg);
+    padding-left: 3rem;
+}
+
+.list--tick .list__item {
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .list--tick .list__item {
+        padding-left: 0;
+    }
+} */
+
+/* Icons */
+/* .icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon--primary {
+    fill: var(--color-accent);
+}
+
+.icon-container {
+    background: #f3f9fa;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* Buttons */
+/* 
+.btn {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2rem 3rem;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    white-space: nowrap;
+    margin: 1rem 0;
+}
+
+.btn--primary {
+    background: var(--color-primary);
+    color: #fff;
+}
+
+.btn--primary:hover {
+    background: #3a8ffd;
+}
+
+.btn--secondary {
+    background: var(--color-secondary);
+    color: #fff;
+}
+
+.btn--secondary:hover {
+    background: #00c8eb;
+}
+
+.btn--accent {
+    background: var(--color-accent);
+    color: #fff;
+}
+
+.btn--accent:hover {
+    background: #de7564;
+} 
+
+.btn--block {
+    width: 100%;
+    display: inline-block;
+}
+
+.btn--outline {
+    background: #fff;
+    color: var(--color-h2);
+    border: 2px solid var(--color-h2);
+}
+
+.btn--outline:hover {
+    background: var(--color-h2);
+    color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+     .btn {
+        font-size: 1.5rem;
+     }
+} */
+
